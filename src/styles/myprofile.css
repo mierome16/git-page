@@ -1,0 +1,62 @@
+.gitpage {
+    margin-top: 20px;
+    font-family: sans-serif;
+    margin: auto;
+    margin-left: 20px;
+}
+.allinfo {
+    display: flex;
+}
+.overview ul {
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    
+}
+.overview ul li {
+    margin-top: 40px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+ul {
+    list-style: none;
+}
+.overview {
+    height: 80px;
+}
+.repolist li {
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+.repolist h3 {
+    color: blue;
+    font-size: 26px;
+}
+.languages {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+.repolist li p {
+    margin-top: 0px;
+}
+img {
+    height: 350px;
+    width: 350px;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 100;
+}
+button {
+    width: 320px;
+    height: 40px;
+    color: black;
+}
+.allinfo aside h3 {
+    font-weight: 200;
+}
